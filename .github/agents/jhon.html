@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel SIRAE</title>
+    <link rel="stylesheet" href="jhon.css">
+</head>
+<body>
+    
+    <div id="aplicacion-completa">
+        
+        <div id="menu-lateral">
+            <div id="area-logo">
+                <img src="image.png" id="logo" alt="Logo SIRAE">
+            </div>
+            
+            <a href="#" class="item-menu activo">👤 Administrador</a>
+            <a href="#" class="item-menu">📈 Dashboard</a>
+            <a href="#" class="item-menu">👥 Usuarios</a>
+            <a href="#" class="item-menu">🛒 Productos</a>
+            <a href="#" class="item-menu">🔔 Notificaciones</a>
+        </div>
+
+        <div id="area-contenido">
+            
+            <div id="barra-titulo">
+                <h2 id="titulo-vista"></h2>
+                <button id="boton-menu-movil">☰</button>
+            </div>
+
+            <div id="panel-resumen">
+                
+                <div id="navegacion-panel">
+                    <button class="boton-nav activo-panel">resumen</button>
+                    <button class="boton-nav">gestion de roles</button>
+                    <button class="boton-nav">manipuladoras</button>
+                </div>
+
+                <div id="fila-tarjetas-resumen">
+                    
+                    <div class="tarjeta-dato">
+                        <p class="numero">4</p>
+                        <span class="icono-tarjeta">👥</span>
+                        <p class="texto-tarjeta">Manipuladoras activas</p>
+                    </div>
+
+                    <div class="tarjeta-dato">
+                        <p class="numero">4</p>
+                        <span class="icono-tarjeta">🧑‍🏫</span>
+                        <p class="texto-tarjeta">profesores registrados</p>
+                    </div>
+
+                    <div class="tarjeta-dato">
+                        <p class="numero">5</p>
+                        <span class="icono-tarjeta">📄</span>
+                        <p class="texto-tarjeta">Total se usuarios sistema</p>
+                    </div>
+                </div>
+
+                <div id="fila-secciones-informacion">
+                    
+                    <div class="seccion-info" id="actividad-reciente">
+                        <h3>Actividad reciente</h3>
+                        <div class="linea-detalle">
+                            <span class="punto-estado azul"></span>
+                            <p>Nueva manipuladora asignada: Ana García</p>
+                            <small>Hace 2 horas</small>
+                        </div>
+                        <div class="linea-detalle">
+                            <span class="punto-estado azul"></span>
+                            <p>Profe registrado: Luis Martinez</p>
+                            <small>Hace 4 horas</small>
+                        </div>
+                        <div class="linea-detalle">
+                            <span class="punto-estado rojo"></span>
+                            <p>turno de manipuladora actualizada</p>
+                            <small>Hace 6 horas</small>
+                        </div>
+                    </div>
+
+                    <div class="seccion-info" id="tareas-pendientes">
+                        <h3>Tareas pendientes</h3>
+                        <div class="linea-detalle">
+                            <p>Revisar asignaciones semanales</p>
+                            <small>vence: mañana</small>
+                        </div>
+                        <div class="linea-detalle">
+                            <p>revizar turno de manipuladoras</p>
+                            <small>vence en 3 dias</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
