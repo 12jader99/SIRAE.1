@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2f2f2f;
+}
+
+/* Fondo oscuro */
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal */
+.modal {
+    width: 420px;
+    background: #e6e6e6;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título */
+.modal h2 {
+    color: #7a7a7a;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Contenedor gris */
+.contenedor-info {
+    background: #bdbdbd;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Campos */
+.campo {
+    background: #e5e5e5;
+    border: 1px solid #9c9c9c;
+    padding: 8px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #6b6b6b;
+}
+
+/* Botón */
+.btn-cerrar {
+    background: #8aa12f;
+    color: #2f2f2f;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 18px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-cerrar:hover {
+    background: #7a9128;
+}
