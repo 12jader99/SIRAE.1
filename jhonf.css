@@ -230,6 +230,6 @@ body {
     display: flex;
     align-items: center; 
     justify-content: center;
-    background: var(--color-blanco);
+    background: var(--color-blanco); 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

@@ -1,0 +1,70 @@
+/* Fondo */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caja principal */
+.contenedor{
+    background-color: #e6e6e6;
+    width: 750px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/* Título */
+.contenedor h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Área gris */
+.formulario{
+    background-color: #b3b3b3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Filas */
+.fila{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+.fila input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Botones */
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.guardar{
+    background-color: olive;
+}
+
+.cancelar{
+    background-color: darkred;
+}
